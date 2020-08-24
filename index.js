@@ -12,20 +12,24 @@ $(document).ready(function() {
   if (document.cookie.indexOf('fadein=false') === -1)
   {  
     $('body').css('opacity', 0);
+    /*
     $('#link-github').css({opacity: 0, top: '-16px'});
     $('#link-twitter').css({opacity: 0, top: '-16px'});
     $('#link-youtube').css({opacity: 0, top: '-16px'});
     $('#slider').css({opacity: 0});
     $('.link-img-32').css({'pointer-events': 'none'});
     $('#projects').css({opacity: 0});
+    */
     
     $('body').animate({opacity: 1}, 500, function() {
+      /*
       $('#link-github').animate({opacity: 1, top: '0px'}, 300, function() {
         $('#slider').animate({opacity: 1}, 150, function() {
           $('#projects').animate({opacity: 1},150);
         });
         $('.link-img-32').css({'pointer-events': 'auto'});
       });
+      */
     });
     document.cookie = 'fadein=false';
   }
