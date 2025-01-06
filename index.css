@@ -1,7 +1,7 @@
 body
 {
 	background-color:#555;
-	background-image:url('images/bg_01.png');
+	background-image:url('images/bg.svg');
 	font-family:Consolas;
 	margin:auto;
 	width:500px;
@@ -61,7 +61,7 @@ h1{
 .separator
 {
 	height:1px;
-	background-image:url('images/separator.png');
+	background-image:url('images/separator.svg');
 	background-repeat:repeat;
 	margin:auto;
 }
